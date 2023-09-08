@@ -1,0 +1,9 @@
+
+Assignment 8 th september
+1.Take car crashes dataset from seaborn library
+2.load the dataset 
+3.Perfrom Data Visualization 
+4.Inference is must for each and every graph
+5.Submit it by wednesday in html format
+
+Feedback - https://forms.gle/7vFfvANDVfvDxxW28
