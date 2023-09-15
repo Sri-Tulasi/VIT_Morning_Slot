@@ -2,7 +2,7 @@ Assignment 15 sep
 Perform Data preprocessing on Titanic dataset
 1.Data Collection.
    Please download the dataset from 
-   https://www.kaggle.com/datasets/yasserh/titanic-datase
+   https://www.kaggle.com/datasets/yasserh/titanic-dataset
 
 2.Data Preprocessing
     o	Import the Libraries.
