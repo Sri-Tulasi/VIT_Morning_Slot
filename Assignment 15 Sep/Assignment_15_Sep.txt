@@ -1,0 +1,16 @@
+Assignment 15 sep
+Perform Data preprocessing on Titanic dataset
+1.Data Collection.
+   Please download the dataset from 
+   https://www.kaggle.com/datasets/yasserh/titanic-datase
+
+2.Data Preprocessing
+    o	Import the Libraries.
+    o	Importing the dataset.
+    o	Checking for Null Values.
+    o	Data Visualization.
+    o	Outlier Detection
+    o	Splitting Dependent and Independent variables
+    o	Perform Encoding
+    o	Feature Scaling.
+    o	Splitting Data into Train and Test
