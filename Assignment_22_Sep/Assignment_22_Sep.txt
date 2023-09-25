@@ -1,5 +1,5 @@
 1.Download the Employee Attrition Dataset
 https://www.kaggle.com/datasets/patelprashant/employee-attrition
 2.Perfrom Data Preprocessing
-3.Model Building using Logistic Regression and Decision Tree
+3.Model Building using Logistic Regression and Decision Tree and Random Forest
 4.Calculate Performance metrics
