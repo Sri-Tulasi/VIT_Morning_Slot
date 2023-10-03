@@ -1,0 +1,6 @@
+Assignment 5:
+    Take all the columns in mall_customers.csv
+    gender age annual income spending score
+    perform label encoding on gender
+    train your data
+    
