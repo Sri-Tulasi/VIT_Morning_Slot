@@ -1,0 +1,61 @@
+1 website frontend of web app whcih is visible  html 
+2. server ---backend app.py
+3.ip address
+
+2.integrate our machine learning model with flask    flask_ml
+1.create all the necessary folder
+ static
+      css
+     js
+     images
+templates----all your html pages
+app.py---backend app 
+model.pkl--model file
+2.create flask app
+3.create html pages
+4.host it on local server
+render the basic template
+5.when the user gives the values ----i have the take the values from the browser 
+
+hit the model----prediciton out of it 
+6.show it on UI
+
+
+
+
+
+1.integrate our deep learning model with flask  ------cnn_Flask
+1. create all the necessary folders
+	static
+	templates--html---Frontend ---open file ---home.html
+	uploads--input image given by the user gets stored here
+	app.py--Backend	
+	model file---animal.h5
+2.create html pages name.html
+3.create app.py ---
+	1.initialize the flask application
+	2.load the model--->>yur model will be store in model variable
+	3.user hits the local host5000 ---->render basic template--->index.html 
+	4.user chooses the image-->save this image in uploads folder
+	5.lload the image from the file path----img
+	6.convert our image to array
+	x=image.img_to_array(img)
+	7.expand dims of image
+	x=np.expand_dims(x,axis=0)
+	8.predict on the image wchih is given by theuser
+	pred=model.predict(x)
+	9.maximum probability
+	10. show case it on UI
+
+
+
+
+
+
+
+
+
+
+
+
+
