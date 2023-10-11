@@ -1,0 +1,35 @@
+Agenda for today
+1.Integrate our machine learning model with Flask
+2.NLP
+
+
+Please go to my github account
+and download Flask_ML file and extract it
+
+integrate our machine learning model with flask    flask_ml
+1.create all the necessary folder
+ static
+      css
+     js
+     images
+templates----all your html pages
+app.py---backend app  where we acutally write our code
+model.pkl--model file
+scaler.pkl file 
+
+2.create html pages-done
+3.create flask app--
+	1.import all the necessary libraries
+	2.load the model and scaler pkl files
+	3.intialize the Flask application
+	4.when no route is given we have render basic template home.html
+	5.user will give theinput for prediction 
+	6.save the values in temp variables by taking inputs from form
+	6.click on submit button
+	7.run def predict1():
+		store the values
+		convert to dataframe
+		use scaler scaler
+		give it to the model
+prediciton out of it 
+6.showcase it on UI
