@@ -1,0 +1,157 @@
+ANn-----statistical data
+CNN---images
+?????----text
+
+i am Tulasi.i am from Telangana.i speak Telugu
+Tulasi  Telangana  speak Telugu---Lexical analysis
+
+Syntactic analysis-----chek the grammer and see is there any menaig ful info
+the school goes boy-----------rejected
+
+
+Semantic analysis--- chek the exact meaning
+There is a hot ice cream   ---rejected
+
+
+
+
+keyword--most important word
+
+concepts
+categorise
+entities 
+Ibm is a multi national company loacted in newyork
+organization,location
+Sentiment
+i am very happy about yesterdays class -----
+
+
+
+
+text?????
+Convert text to numerical format(vectors)
+pre process----
+Text preprocessing 1
+1.Tokenization
+
+2.Stemming and lemmitisation
+Input=text
+Stemming---process of reducing words to their base word
+100 stntences
+finally
+final
+finalized  
+----------------fina-----
+
+fast
+
+lemmitisation
+finally
+final
+finalized  
+----------------final-----
+bit slow
+
+
+3.stop words
+Tulasi  Telangana  speak Telugu
+
+Text preprocessing 2
+convert the words to vectors
+1.Bag of words
+2.TF-IDF
+3.WORD2 VEC
+
+1.Bag of words
+Sen1 He is a good boy
+Sen2 She is a good girl
+Sen 3 Boy and girl are good
+
+remove stop words TP-1
+Sen1 good boy
+Sen2 good girl
+Sen 3 Boy girl good
+
+words   Frequency
+good        3
+girl           2
+boy          2
+
+
+Sent         good      girl      boy ----independent variables    op variable
+1                 1             0        1
+2                1              1        0
+3               1              1         1
+
+
+
+Sen1 He is a good boy
+Sen2 She is a good girl
+Sen 3 Boy and girl are good
+
+Sen1 good boy
+Sen2 good girl
+Sen 3 Boy girl good
+
+
+2.TF-IDF
+TF= no.of repetition of words in sentence / no.of words in the sentence
+	
+words 	sen1	sen2	sen3 
+good          1/2	1/2	1/3
+girl	0	1/2 	1/3           
+boy          1/2	0	1/3
+
+IDF=total no.of sentences / no.of sentences contain this word
+
+words   IDF
+good        log(3/3)=0
+girl           log(3/2)
+boy          log(3/2)
+
+TF*IDF
+	good  f1   girl f2      boy f3    op
+Sen1         0            1/2+log(3/2)
+Sen2
+Sen3
+
+
+
+
+1.import necessary libraries
+2.read the dataset
+3.import necessary nlp libraries
+4.text preprocessing
+	1.remove un necessary characters
+	2. lowering the text
+	3.tokeniation   splitting the text
+	4.Stemming
+	5.remove all the stop words
+	6.join the splitted data
+	7.convert words to vectors
+	8.split dependent and independent variables
+	9.split training and testing set
+5.apply ann
+6.save the model
+7test the model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
